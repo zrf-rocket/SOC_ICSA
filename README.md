@@ -84,17 +84,19 @@
     * [基于AI图像识别的工业缺陷检测应用系统（GPU&FPGA）](https://mp.weixin.qq.com/s/04qefQFg-Pg1Gcqq1vBLQQ)
     * [基于AI图像识别的智能缺陷检测系统，在钢铁行业的应用-技术方案](https://mp.weixin.qq.com/s/dSHbnuOwQZzE4CvPr1JYjg)
 
-# 信息资产采集与安全评估系统（ICSA）、安全分析平台（资产安全管理系统、云资产安全管理平台、云安全监控）
+# 安全运营中心（SOC）-信息资产采集与安全评估系统（ICSA）、安全分析平台（资产安全管理系统、云资产安全管理平台、云安全监控）
 
 ### 概述
 
-Information Collection and Security Assessment（简称：ICSA） 信息资产采集与安全评估系统
+[本项目工程](https://gitee.com/SteveRocket/ICSA.git)Information Collection and Security Assessment（简称：ICSA） 信息资产采集与安全评估系统
 同时，应用场景还可以作为
 
 1. 企业安全分析平台、SIEM，系统提供日志、安全事件等多维度信息收集与监控、集中化管理安全事件，以供企业安全部门、安全分析师做安全审计、溯源取证等使用。
 2. 资产安全管理系统、CMDB，供运维部门做资产统一监控和管理，以及统一的配置管理。
 3. 云资产安全管理平台、云安全监控，供企业管理云上的资产，以及云上的资产安全诊断问题。
 4. 等其他使用场景。
+
+[Github地址：](https://github.com/zrf-rocket/SOC_ICSA) https://github.com/zrf-rocket/SOC_ICSA
 
 ### 功能特性
 
@@ -151,16 +153,24 @@ Information Collection and Security Assessment（简称：ICSA） 信息资产�
 
 #### 组件
 
-1. icsa-platform
+1. [icsa-platform](icsa-platform/RADEME-dev.md)
    用于平台端提供后台接口服务，用于前端页面展示服务。
-2. icsa-ia
+2. [icsa-ia](icsa-ia/README.md)
    平台后端安全分析服务。
-3. icsa-helper
+3. [icsa-helper](icsa-helper/README.md)
    平台后端定时任务。
-4. icsa-service
+4. [icsa-service](icsa-service/README.md)
    后台API服务。
-5. icsa-edr
+5. [icsa-edr](icsa-edr/README.md)
    用于采集和监控主机。
 
 #### 环境部署
+
 参考文档：[开发与生产环境部署说明](icsa-platform/RADEME-dev.md)
+
+<img src="./static/qq_link.png" style="width:300px"><br>
+QQ技术交流群
+
+
+<img src="./static/wechat.jpg" style="width:300px"><br>
+联系作者
