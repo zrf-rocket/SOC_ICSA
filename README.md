@@ -168,9 +168,9 @@
 
 参考文档：[开发与生产环境部署说明](icsa-platform/RADEME-dev.md)
 
-<img src="./static/qq_link.png" style="width:300px"><br>
-QQ技术交流群
+<img src="./static/qq_link.png" style="width:200px"><br>
+**< QQ技术交流群 >**
 
 
-<img src="./static/wechat.jpg" style="width:300px"><br>
-联系作者
+<img src="./static/wechat.jpg" style="width:200px"><br>
+**< 联系作者 >**
